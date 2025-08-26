@@ -24,7 +24,7 @@ section{
     background-color:rgb(140, 9, 9);
     margin-top:0px;
     display:flex;
-    max-width:1600px;
+    max-width:2400px;
     justify-self:auto;
 }
 #navtext{
@@ -42,7 +42,10 @@ section#welcome{
 a{
     color:black;
 }
-/*properties of certain embedded frames*/
-iframe{
-    justify-self:center;
+section#embedded{
+    background-color:rgba(0,0,0,0);
+    border-color:rgba(0,0,0,0);
+    border-style:solid;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0);
+    max-width:2400px;
 }
